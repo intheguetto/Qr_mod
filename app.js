@@ -69,9 +69,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
       });
   }
 
-  const reactivateBtn = document.getElementById("camara");
+  //Estas lineas reactivan la camara una vez el codigo QR haya sido escaneado
+  const reactivateBtn = document.getElementById("camara");  //"camara" hace referencia al ID del boton en el codigo HTML y le da la funcion de resetear dicha camara al leer el codigo
 
-  // Escuchar evento de clic en el botón
+  // Escuchar evento de clic en el botón y reactiva la camara
   reactivateBtn.addEventListener("click", function() {
     startCamera();
   });
