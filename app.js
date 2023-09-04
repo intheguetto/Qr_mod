@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 /*Aqui posicionamos y le damos estilo al poceso de escaneo*/
       if (windowHeight > qrResultHeight) {
       qrResult.style.position = "fixed";
-      qrResult.style.bottom = "20%";
+      qrResult.style.bottom = "19%";
       qrResult.style.fontSize = "25px";
     } else {
       qrResult.style.position = "relative";
