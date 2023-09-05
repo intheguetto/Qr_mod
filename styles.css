@@ -13,7 +13,7 @@ h1 {
   color: #333;
 }
 
-#canvas {  /*/*Resolucion y tamaño del video*/
+#canvas {  /*/*Resolucion y tamaño del contenedor donde se coloca el video*/
   width: 100%;
   height: 100%;
 }
@@ -34,7 +34,7 @@ h1 {
   width: 600px;  /*Tamaño del espacio del video no afecta a resolucion*/
   height: 600px;
   overflow: hidden;
-  top: -500px;
+  top: -10px;
 }
 
 #qr-result {
@@ -68,7 +68,7 @@ h1 {
   display: inline-block;
   /* ajusta el ancho según tus necesidades */
   position: fixed;
-  bottom: 6%; /* ajusta el valor según tus necesidades */
+  bottom: 2%; /* ajusta el valor según tus necesidades */
   padding: 50px;
 }
 
