@@ -43,14 +43,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
       }
 
 /*Aqui posicionamos y le damos estilo al poceso de escaneo*/
-      if (windowHeight > qrResultHeight) {
-      qrResult.style.position = "fixed";
-      qrResult.style.bottom = "15%";
-      qrResult.style.fontSize = "25px";
-    } else {
-      qrResult.style.position = "relative";
-      qrResult.style.bottom = "auto";
-    }
+    //   if (windowHeight > qrResultHeight) {
+    //   qrResult.style.position = "fixed";
+    //   qrResult.style.bottom = "15%";
+    //   qrResult.style.fontSize = "25px";
+    // } else {
+    //   qrResult.style.position = "relative";
+    //   qrResult.style.bottom = "auto";
+    // }
   
     }
     requestAnimationFrame(tick);
@@ -76,8 +76,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   reactivateBtn.addEventListener("click", function() {
     startCamera();
   });
-
   startCamera();
-});
+ });
 
 

@@ -68,13 +68,47 @@ h1 {
   display: inline-block;
   /* ajusta el ancho según tus necesidades */
   position: fixed;
-  bottom: 2%; /* ajusta el valor según tus necesidades */
-  padding: 50px;
+  bottom: 45%; /* ajusta el valor según tus necesidades */
+  padding: 30px 70px;
+  background-color: #2196F3;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-#camara1{
-  width: 150px;
-  height: 50px;
-  position: fixed;
-  bottom: 8%;
+#camara:hover{
+  background-color:#1976D2 ;
+}
+
+
+
+
+/* PARTE WEB RESPONSIVE */
+
+@media screen and (min-width: 499px) and (min-height: 999px) {
+  /* Estilos para pantallas con resolución menor a 500x1000px */
+  /* Agrega los cambios que deseas aplicar para pantallas más pequeñas aquí */
+
+  #qr-scanner {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 600px;  /*Tamaño del espacio del video no afecta a resolucion*/
+    height: 600px;
+    overflow: hidden;
+    top: -550px;
+  }
+
+  #qr-result{
+    position: fixed;
+    bottom: 55%;
+    font-size: 25px;
+  }
 }
