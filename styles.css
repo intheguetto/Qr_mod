@@ -42,7 +42,12 @@ h1 {
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
+  position: fixed;
+  bottom: 15%;
+  font-size: 25px;
 }
+
+
 
 #titulo {
   font-family: 'Roboto';
@@ -68,7 +73,7 @@ h1 {
   display: inline-block;
   /* ajusta el ancho según tus necesidades */
   position: fixed;
-  bottom: 45%; /* ajusta el valor según tus necesidades */
+  bottom: 4%; /* ajusta el valor según tus necesidades */
   padding: 30px 70px;
   background-color: #2196F3;
   color: #FFF;
