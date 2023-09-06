@@ -18,7 +18,7 @@ h1 {
   height: 100%;
 }
 
-#video {  /*Resolucion y tamaño del video*/
+#video {  /*Resolucion y tamaño del video estas lineas arreglan el tema de la camara*/
   width: 0px;
   height: 0px;
 }
@@ -91,7 +91,7 @@ h1 {
 
 
 
-/* PARTE WEB RESPONSIVE */
+/* -------------------------------------------------PARTE WEB RESPONSIVE--------------------------------------------------- */
 
 @media screen and (min-width: 499px) and (min-height: 999px) {
   /* Estilos para pantallas con resolución menor a 500x1000px */
